@@ -1,0 +1,28 @@
+<h1>新規</h1>
+
+<%= link_to '戻る', root_path %>
+
+<%= form_for @test do |f| %>
+    <p>
+        <%= f.label(:test1, "項目１") %>
+        <%= f.text_field :test1 %>
+    </p>
+    <p>
+        <%= f.label(:test2, "項目２") %>
+        <%= f.text_field :test2 %>
+    </p>
+    <p>
+        <%= f.label(:test3, "項目３") %>
+        <%= f.text_field :test3 %>
+    </p>
+    <p>
+        <%= f.label(:test4, "項目４") %>
+        <%= f.text_field :test4 %>
+    </p>
+    <p>
+        <%= f.label(:test5, "項目５") %>
+        <%= f.text_field :test5 %>
+    </p>
+    
+    <%= f.submit :value => "更新", :id => "test" %>
+<% end %>

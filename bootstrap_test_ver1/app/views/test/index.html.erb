@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md  navbar-light bg-light">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi" aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="bs-navi">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">新規</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">参照</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- アラート -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>アラート</h2>
+    <div class="alert alert-primary"><strong>アラート</strong> - チェックしてください！ Primary</div>
+    <div class="alert alert-secondary"><strong>アラート</strong> - チェックしてください！ Secondary</div>
+    <div class="alert alert-success"><strong>アラート</strong> - チェックしてください！ Success</div>
+    <div class="alert alert-info"><strong>アラート</strong> - チェックしてください！ Info</div>
+    <div class="alert alert-warning"><strong>アラート</strong> - チェックしてください！ Warning</div>
+    <div class="alert alert-danger"><strong>アラート</strong> - チェックしてください！ Danger</div>
+    <div class="alert alert-light"><strong>アラート</strong> - チェックしてください！ Light</div>
+    <div class="alert alert-dark"><strong>アラート</strong> - チェックしてください！ Dark</div>
+  </div>
+</div>
+
+<!-- バッジ -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>バッジサイズ</h2>
+    <div class="container offset-md-1 col-md-10">
+      <h1>見出しの例 <span class="badge badge-secondary">New</span></h1>
+      <h2>見出しの例 <span class="badge badge-secondary">New</span></h2>
+      <h3>見出しの例 <span class="badge badge-secondary">New</span></h3>
+      <h4>見出しの例 <span class="badge badge-secondary">New</span></h4>
+      <h5>見出しの例 <span class="badge badge-secondary">New</span></h5>
+      <h6>見出しの例 <span class="badge badge-secondary">New</span></h6>
+    </div>
+    
+    <h2>バッジ色</h2>
+    <div class="container offset-md-1 col-md-10">
+      <span class="badge badge-pill badge-primary">Primary</span>
+      <span class="badge badge-pill badge-secondary">Secondary</span>
+      <span class="badge badge-pill badge-success">Success</span>
+      <span class="badge badge-pill badge-info">Info</span>
+      <span class="badge badge-pill badge-warning">Warning</span>
+      <span class="badge badge-pill badge-danger">Danger</span>
+      <span class="badge badge-pill badge-light">Light</span>
+      <span class="badge badge-pill badge-dark">Dark</span>
+    </div>
+  </div>
+</div>
+
+<!-- パンくずリスト -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>パンくずリスト</h2>
+    <div class="container offset-md-1 col-md-10">
+      <nav aria-label="パンくずリスト">
+      	<ol class="breadcrumb">
+      		<li class="breadcrumb-item active" aria-current="page">ホーム</li>
+      	</ol>
+      </nav>
+      <nav aria-label="パンくずリスト">
+      	<ol class="breadcrumb">
+      		<li class="breadcrumb-item"><a href="#">ホーム</a></li>
+      		<li class="breadcrumb-item active" aria-current="page">ライブラリ</li>
+      	</ol>
+      </nav>
+      <nav aria-label="パンくずリスト">
+      	<ol class="breadcrumb" style="margin-bottom: 5px;">
+      		<li class="breadcrumb-item"><a href="#">ホーム</a></li>
+      		<li class="breadcrumb-item"><a href="#">ライブラリ</a></li>
+      		<li class="breadcrumb-item active" aria-current="page">データ</li>
+      	</ol>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!-- ボタン -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>ボタン</h2>
+    <div class="container offset-md-1 col-md-10">
+      <button type="button" class="btn btn-primary col-2">Primary</button>
+      <button type="button" class="btn btn-secondary col-2">Secondary</button>
+      <button type="button" class="btn btn-success col-2">Success</button>
+      <button type="button" class="btn btn-danger col-2">Danger</button>
+      <button type="button" class="btn btn-warning col-2">Warning</button>
+      <button type="button" class="btn btn-info col-2">Info</button>
+      <button type="button" class="btn btn-light col-2">Light</button>
+      <button type="button" class="btn btn-dark col-2">Dark</button>
+      <button type="button" class="btn btn-link col-2">Link</button>
+    </div>
+  </div>
+</div>
+
+<!-- ボタングループ -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>ボタングループ</h2>
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-group" role="group" aria-label="基本のボタングループ">
+        <button type="button" class="btn btn-secondary">左</button>
+        <button type="button" class="btn btn-secondary">中</button>
+        <button type="button" class="btn btn-secondary">右</button>
+      </div>
+    </div>
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-group" role="group" aria-label="基本のボタングループ">
+        <button type="button" class="btn page-link text-dark d-inline-block">左</button>
+        <button type="button" class="btn page-link text-dark d-inline-block">中</button>
+        <button type="button" class="btn page-link text-dark d-inline-block">右</button>
+      </div>
+    </div>
+    
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-toolbar" role="toolbar" aria-label="ボタングループのツールバー">
+        <div class="btn-group mr-2" role="group" aria-label="第一グループ">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="第二グループ">
+          <button type="button" class="btn btn-secondary">5</button>
+          <button type="button" class="btn btn-secondary">6</button>
+          <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="第三グループ">
+          <button type="button" class="btn btn-secondary">8</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-group btn-group-lg" role="group" aria-label="...">
+        <button type="button" class="btn btn-secondary">左</button>
+        <button type="button" class="btn btn-secondary">中</button>
+        <button type="button" class="btn btn-secondary">右</button>
+      </div>
+      
+      <div class="btn-group btn-group-sm" role="group" aria-label="...">
+        <button type="button" class="btn btn-secondary">左</button>
+        <button type="button" class="btn btn-secondary">中</button>
+        <button type="button" class="btn btn-secondary">右</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 折り畳み -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>折り畳み</h2>
+    <div class="container offset-md-1 col-md-10">
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          リンク式
+        </a>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          ボタン式
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          コンテンツが表示されます。
+        </div>
+      </div>
+    </div>
+    
+    <div class="container offset-md-1 col-md-10">
+      <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a class="text-body" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+                アイテム1
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              アイテム1のコンテンツ
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed text-body" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+                アイテム2
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              アイテム2のコンテンツ
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed text-body" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+                アイテム3
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              アイテム3のコンテンツ
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+      </div><!-- /#accordion -->
+    </div>
+  </div>
+</div>
+
+<!-- ドロップダウン -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>ドロップダウン</h2>
+    <div class="container offset-md-1 col-md-10">
+      <div class="dropdown">
+        <!-- 切替ボタンの設定 -->
+        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ドロップダウンボタン
+        </button>
+        <!-- ドロップメニューの設定 -->
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">メニュー1</a>
+          <a class="dropdown-item" href="#">メニュー2</a>
+          <a class="dropdown-item" href="#">メニュー3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">その他リンク</a>
+        </div><!-- /.dropdown-menu -->
+      </div><!-- /.dropdown -->
+    </div>
+    
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         ボタン
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">メニュー1</a>
+          <a class="dropdown-item" href="#">メニュー2</a>
+          <a class="dropdown-item" href="#">メニュー3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">その他リンク</a>
+        </div><!-- /.dropdown-menu -->
+      </div><!-- /.btn-group -->
+    </div>
+    
+    <div class="container offset-md-1 col-md-10">
+      <div class="btn-group">
+        <button type="button" class="btn btn-success">ボタン</button>
+        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">ドロップダウンの切替</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">メニュー1</a>
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- フォーム -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>フォーム</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Eメールアドレス</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eメールアドレス">
+          <small class="text-muted">あなたのメールは他の誰とも共有しません。</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">パスワード</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="パスワード">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">記憶する</label>
+        </div>
+        <button type="submit" class="btn btn-primary">送信する</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- モーダル -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>モーダル</h2>
+    <div class="container offset-md-1 col-md-10">
+      <!-- 切り替えボタンの設定 -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        ココを押すと表示
+      </button>
+      
+      <!-- モーダルの設定 -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">モーダルのタイトル</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>モーダルのコンテンツ文。</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+              <button type="button" class="btn btn-primary">変更を保存</button>
+            </div><!-- /.modal-footer -->
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
+  </div>
+</div>
+
+<!-- ナビゲーションバー -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>ナビゲーションバー</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">ブランド</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切替">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="Navber">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ホーム <span class="sr-only">(現位置)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">リンク</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ドロップダウン
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">メニュー1</a>
+              <a class="dropdown-item" href="#">メニュー2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">その他</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">無効</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="search" class="form-control mr-sm-2" placeholder="検索..." aria-label="検索...">
+          <button type="submit" class="btn btn-outline-success my-2 my-sm-0">検索</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    </div>
+  </div>
+</div>
+
+<!-- ページ送り -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>ページ送り</h2>
+    <nav aria-label="ページ送りの実例">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">前へ</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">次へ</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- プログレスバー -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>プログレスバー</h2>
+      <div class="progress">
+      	<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mt-3">
+      	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mt-3">
+      	<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mt-3">
+      	<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mt-3">
+      	<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mt-3">
+        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%;">25%</div>
+      </div>
+  </div>
+</div>
+
+<!-- スピナー -->
+<div class="container">
+  <div class="card card-body bg-light p-2 offset-md-2 col-md-8">
+    <h2>スピナー</h2>
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
